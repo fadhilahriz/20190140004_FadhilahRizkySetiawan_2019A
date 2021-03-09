@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    background-color: ghostwhite;
+}
+
+.jud{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:50px;
+    margin-left: 50px;
+}
+
+.gam{
+    border-radius: 10px;
+}
+.kotak{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
