@@ -4,18 +4,33 @@
     background-color: ghostwhite;
 }
 
-.jud{
-    font-family: 'Archivo Black', sans-serif;
-    font-size:50px;
-    margin-left: 50px;
+.sectas{
+    text-align: center;
 }
 
-.gam{
-    border-radius: 10px;
-}
-.kotak{
+table, th, td{
     border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+
+}
+
+.sectengah{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .sectas{
+        color: rebeccapurple;
+    }
+}
+
+@media (min-width: 992px){
+    .sectas{
+        color: darkkhaki;
+    }
+
+    .sectengah{
+        display: flex;
+        justify-content: start;
+    }
 }
