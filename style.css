@@ -1,36 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/*Tampilan Mobile*/
 *{
-    background-color: ghostwhite;
+    background-color: #393e46;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.sectas{
+.nm{
+    margin-bottom: 25px;
+    text-align: center;
+    background:  #ffd369;
+    font-size: 20px;
+    color:  #393e46;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+}
+.sectas img{
+    border-radius: 100%; 
+    border: 7px solid #ffd369;
+    width: 100px;
+    height: 100px;
+}
+
+.sectas h1{
+    font-family: 'Bebas Neue', cursive; 
+    color: #ffd369;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.sectas p{
+    font-size: 10px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+table{
     text-align: center;
 }
 
-table, th, td{
-    border: 1px solid black;
-
-}
-
 .sectengah{
+    padding-top: 15px;
     display: flex;
     justify-content: center;
 }
 
-@media (min-width: 768px) and (max-width: 992px){
-    .sectas{
-        color: rebeccapurple;
-    }
+.sectengah h1{
+    font-family: 'Bebas Neue', cursive; 
+    color: #ffd369;
+    font-size: 20px;
 }
 
-@media (min-width: 992px){
-    .sectas{
-        color: darkkhaki;
+.sectengah td,p{
+    font-size:10px;
+}
+
+.sectengah img{
+    width: 20px;
+}
+
+.socmed h1{
+    font-family: 'Bebas Neue', cursive; 
+    color: #ffd369;
+    font-size: 20px;
+}
+
+.socmed{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.socmed img{
+    width:20px;
+}
+
+/*Tampilan Tablet*/
+@media (min-width: 768px) and (max-width: 992px){
+    .nm{
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+    
+    .sectas img{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .sectas h1{
+        font-size: 40px;
+        text-align: left;
+        padding-left: 15px;
+    }
+    
+    .sectas p{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 15px;
     }
 
     .sectengah{
-        display: flex;
-        justify-content: start;
+        padding-top: 15px;
+    }
+    
+    .sectengah h1{
+        font-size: 30px;
+    }
+
+    .sectengah td,p{
+        font-size:20px;
+        color: #f6f4e6
+    }
+
+    .sectengah img{
+        width: 30px;
+    }
+
+    .socmed h1{
+        font-size: 30px;
+    }
+    
+    .socmed{
+        padding-top: 15px;
+    }
+
+    .socmed img{
+        width:30px;
+    }
+}
+
+/*Tampilan Web*/
+@media (min-width: 992px){
+    .nm{
+        margin-bottom: 60px;
+        font-size: 60px;
+    }
+    .sectas img{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .sectas h1{
+        font-size: 50px;
+        padding-left: 20px;
+    }
+    
+    .sectas p{
+        font-size: 35px;
+        padding-left: 20px;
+    }
+    
+    .sectengah{
+        padding-top: 20px;
+    }
+
+    .sectengah h1{
+        font-size: 40px;
+    }
+
+    .sectengah td, p{
+        font-size:20px;
+        color:#f6f4e6;
+    }
+    
+    .sectengah img{
+        width: 50px;
+    }
+
+    .socmed h1{
+        font-size: 40px;
+    }
+    
+    .socmed{
+        padding-top: 20px;
+    }
+
+    .socmed img{
+        width:50px;
     }
 }
