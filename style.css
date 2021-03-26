@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
-    background: #eeebdd;
     color: #630000;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
+body{
+    background-image: url("Img/bg.jpg");
+    background-size: 100%;
+}
 .jud{
-    margin-bottom: 25px;
     text-align: center;
     background:  #630000;
     color: #eeebdd;
@@ -16,17 +18,29 @@
     font-size: 50px;
 }
 
+.main{
+    margin-top: 150px;
+    font-size: 25px;
+}
+
 @media (min-width: 768px) and (max-width: 992px){
     .jud{
-        margin-bottom: 50px;
         font-size: 80px;
+    }
+    .main{
+        margin-top: 200px;
+        font-size: 30px;
     }
 }
 
 /*Tampilan Web*/
 @media (min-width: 992px){
     .jud{
-        margin-bottom: 60px;
         font-size: 100px;
     }
-}
+    .main{
+        margin-top: 200px;
+        font-size: 35px;
+    }
+}   
+
