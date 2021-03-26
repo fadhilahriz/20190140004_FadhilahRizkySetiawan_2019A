@@ -1,1 +1,1 @@
-<?php include_once('tugas_praktikum_javasript.html'); ?>
+<?php include_once('tugas_praktikum_javascript.html'); ?>
