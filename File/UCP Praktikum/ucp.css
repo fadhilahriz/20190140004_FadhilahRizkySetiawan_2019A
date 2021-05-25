@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+    color: black;
+  }
+
+body h7{
+    color: #149b5b;
+    font-weight: bold;
+}
+
+body p{
+    color: gray;
+}
+
+#penawaran img{
+    filter: invert(44%) sepia(74%) saturate(4653%) hue-rotate(134deg) brightness(95%) contrast(84%);
+    width: 75px;
+    height: 75px;  
+    display: block;
+    margin: auto;
+}
+
+.dark-mode{
+    background-color: #1d2420;
+    color: white;
+}
+
+.dark-mode .card {
+	background-color: white;
+	color: black;
+}
+
+
+
